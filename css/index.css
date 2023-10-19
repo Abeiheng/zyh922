@@ -1,0 +1,161 @@
+/* 全局配置 */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* 修改container的最大宽度为1280 尺寸*/
+/* @media screen and(min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+} */
+
+/* header */
+header {
+    /* 去除左侧内边距 */
+    padding-left: 0 !important;
+}
+
+.logo {
+    background-color: rgb(169, 214, 192);
+}
+
+.logo img {
+    /* width: 100%; */
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* 进入小屏幕，logo图片隐藏 */
+/* 进入小屏幕，显示文字盒子，平时隐藏 */
+
+.nav {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav ul {
+    width: 100%;
+}
+
+.nav img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    background-color: #fff;
+    color: rgb(235, 121, 121);
+}
+
+
+.nav a::before{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.news li{
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.news li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.news li:nth-child(1){
+    width: 50%;
+    height: 266px;
+    
+}
+
+.news li:nth-child(1) p{
+line-height: 41px;
+font-size: 20px;
+}
+
+.news li a img{
+    width: 100%;
+    height: 100%;
+}
+
+.news li a p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:41px ;
+    background: rgba(0, 0, 0 ,.5);
+    font-size: 12px;
+    color:#fff;
+    margin-bottom:0;
+    padding: 5px 10px;
+}
+
+/* publish */
+.publish{
+    border-top: 1px solid #ccc;
+}
+
+.publish .row{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.pic{
+    margin-top: 14px;
+}
+
+.pic img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.banner img{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.hot{
+    display: block;
+    margin-top: 10px;
+    padding: 0 20px 20px 0;
+    border:1px solid #ccc
+}
+
+.hot span{
+    margin-bottom: 20px;
+}
+
+.hot p{
+    font-size: 12px;
+}
